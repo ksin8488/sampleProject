@@ -6,9 +6,21 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
-#ifndef Controller_hpp
+#ifndef Controller_hpp      //these 2 MUST be the same and unique in the project else code won't compile
 #define Controller_hpp
 
-#include <stdio.h>
+#include <iostream>
+
+class Controller
+{
+private:
+    //Just like Java data members and internal methods
+protected:                      //Controller class will never have a sub-class. This is just here for sure
+    //Used for inheritance (subclasses see it as a public method)
+public:
+    //Externally visible
+    Controller();
+    void start();
+};
 
 #endif /* Controller_hpp */
