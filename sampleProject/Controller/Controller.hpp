@@ -11,11 +11,15 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Controller
 {
 private:
     //Just like Java data members and internal methods
     int practiceArray();
+    double doubleArray();
+    string stringArray();
     
 protected:                      //Controller class will never have a sub-class. This is just here for sure
     //Used for inheritance (subclasses see it as a public method)

@@ -23,10 +23,24 @@ void Controller :: start()
     }
     
     cout << practiceArray() << endl;
+    cout << doubleArray() << endl;
+    cout << stringArray() << endl;
 }
 
 int Controller :: practiceArray()
 {
     int array[5] = {0, 1, 2, 3, 4};
     return array[3];
+}
+
+double Controller :: doubleArray()
+{
+    double array[10] = {7.7};
+    return array[0];
+}
+
+string Controller :: stringArray()
+{
+    string array[1] = {"peacock"};
+    return array[0];
 }
