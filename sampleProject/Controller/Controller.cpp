@@ -12,7 +12,7 @@ using namespace std;
 
 Controller :: Controller()  //constructor - class, scope resolution operator, member name
 {
-    
+
 }
 
 void Controller :: start()
@@ -21,4 +21,12 @@ void Controller :: start()
     {
         cout << "This is the " << index + 1 << " time in the loop" << endl;
     }
+    
+    cout << practiceArray() << endl;
+}
+
+int Controller :: practiceArray()
+{
+    int array[5] = {0, 1, 2, 3, 4};
+    return array[3];
 }

@@ -15,12 +15,16 @@ class Controller
 {
 private:
     //Just like Java data members and internal methods
+    int practiceArray();
+    
 protected:                      //Controller class will never have a sub-class. This is just here for sure
     //Used for inheritance (subclasses see it as a public method)
+    
 public:
     //Externally visible
     Controller();
     void start();
+
 };
 
 #endif /* Controller_hpp */
